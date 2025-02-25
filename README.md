@@ -4,7 +4,5 @@ This repository is a collection of well-structured HTML & CSS study materials de
 
 ✅ Handpicked Notes for HTML & CSS
 ✅ Practical Code Examples for better understanding
-✅ Mini Projects to apply your knowledge
-✅ Interview Questions & FAQs for revision
 
 Perfect for BCA students who want to learn, practice, and master web development fundamentals! 🚀
