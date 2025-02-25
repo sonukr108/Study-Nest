@@ -1,0 +1,17 @@
+<svg fill="none" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="__JETBRAINS_COM__LOGO_PREFIX__93" x1="7.671" x2="61.126" y1="64.393" y2="39.609" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1" stop-color="#00D886"></stop>
+      <stop offset="0.59" stop-color="#F0EB18"></stop>
+    </linearGradient>
+    <linearGradient id="__JETBRAINS_COM__LOGO_PREFIX__92" x1="59.933" x2="1.337" y1="59.676" y2="1.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-color="#F0EB18"></stop>
+      <stop offset="0.7" stop-color="#00C4F4"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="#00D886" d="M6 47.55v12.259a4.125 4.125 0 0 0 4.19 4.124l11.044-.176a4.125 4.125 0 0 0 3.066-1.44l32.707-38.158c.64-.748.993-1.7.993-2.685V10.125A4.125 4.125 0 0 0 53.875 6H42.872c-1.19 0-2.321.514-3.105 1.409L7.021 44.834A4.123 4.123 0 0 0 6 47.55Z"></path>
+  <path fill="url(#__JETBRAINS_COM__LOGO_PREFIX__93)" d="M6 49.015v10.862a4.125 4.125 0 0 0 4.125 4.125h12.566c.2 0 .4-.014.598-.044l37.185-5.448A4.125 4.125 0 0 0 64 54.429V39.03a4.125 4.125 0 0 0-4.127-4.125l-18.504.005c-.426 0-.849.066-1.254.195l-31.244 9.98A4.126 4.126 0 0 0 6 49.015Z"></path>
+  <path fill="url(#__JETBRAINS_COM__LOGO_PREFIX__92)" d="M0 4.125v34.127c0 1.659.993 3.155 2.52 3.8L39.943 57.85c.518.219 1.075.33 1.638.324l18.329-.15A4.125 4.125 0 0 0 64 53.9V36.234c0-.806-.236-1.593-.678-2.267L42.213 1.86A4.125 4.125 0 0 0 38.766 0H4.125A4.125 4.125 0 0 0 0 4.125Z"></path>
+  <path fill="#000" d="M52 12H12v40h40V12Z"></path>
+  <path fill="#fff" d="M20 20h4v20h-4V20ZM33.5 20h3.8L41 35.5 44.7 20h4.2l-5.5 20h-4.1l-5.8-20Z"></path>
+</svg>

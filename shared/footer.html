@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/utility.css">
+    <style>
+        @font-face {
+            font-family: myFont;
+            src: url("fonts/Oxlaide.otf") format("opentype");
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        footer {
+            color: white;
+            background: #1b093f url("/images/footer-pattern.png") center top repeat;
+            padding: 50px 100px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .contact-us-logo-image {
+            height: 50px;
+            background-color: #33A9DF;
+            padding: 0px 2px;
+            border-radius: 10px;
+        }
+
+        .contact-us-logo-text {
+            font-size: 40px;
+            font-family: 'myFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .contact-us{
+            width: 300px;
+        }
+        .footer-1st-part{
+            width: 100%;
+            justify-content: space-between;
+        }
+        @media screen and (max-width: 900px){
+            footer{
+                padding: 20px 50px;
+            }
+            .footer-1st-part{
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="footer-1st-part flex gap-20">
+            <div class="contact-us flex gap-10 flex-column">
+                <a href="/index.php">
+                    <div class="contact-us-logo flex gap-10">
+                        <img class="contact-us-logo-image" src="/images/logo.svg">
+                        <div class="contact-us-logo-text">Study Nest</div>
+                    </div>
+                </a>
+                <div class="contact-us-types flex gap-10 flex-column">
+                    <div class="contact-us-location contact-us-mode flex gap-10">
+                        <img src="/images/location.svg">
+                        <div class="contact-us-location-text"><a
+                                href="https://www.google.co.in/maps/place/Nutan+Nagar+Colony,+Hazaribagh,+Jharkhand+825303/@23.9947673,85.3833188,15z/data=!3m1!4b1!4m6!3m5!1s0x39f49c6210d0ad1f:0x1e7613d44dde90e9!8m2!3d23.9947282!4d85.3936958!16s%2Fg%2F1hhwjb3t8?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+                                target="_blank">825301, Nutan Nagar Hazaribag, Jharkhand India</a></div>
+                    </div>
+                    <div class="contact-us-call contact-us-mode flex gap-10">
+                        <img src="/images/call.svg">
+                        <div class="contact-us-call-text"><a href="tel:+91 7857 8836 54">+91 7857 8836 54</a></div>
+                    </div>
+                    <div class="contact-us-email contact-us-mode flex gap-10">
+                        <img src="/images/mail.svg">
+                        <div class="contact-us-email-text"><a
+                                href="mailto:studynestbysonu@gmail.com">studynestbysonu@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-product about-rentcars-web flex-column flex gap-10">
+                <div class="top-text"><b>Our Product</b></div>
+                <div class="sub-texts">
+                    <div class="sub-text-1">Rentcars</div>
+                    <div class="sub-text-2">Netflix clone</div>
+                    <div class="sub-text-3">Spotify Clone</div>
+                    <div class="sub-text-4">Hunger home</div>
+                    <div class="sub-text-5">Bachelor homes</div>
+                </div>
+            </div>
+            <div class="resources about-rentcars-web flex-column flex gap-10">
+                <div class="top-text"><b>Resources</b></div>
+                <div class="sub-texts">
+                    <div class="sub-text-1">Download</div>
+                    <div class="sub-text-2">Help Centre</div>
+                    <div class="sub-text-3">Guides</div>
+                    <div class="sub-text-5">Cruises</div>
+                    <div class="sub-text-6">Developer</div>
+                </div>
+            </div>
+            <div class="about-rentcars about-rentcars-web flex-column flex gap-10">
+                <div class="top-text"><b>About Study Nest</b></div>
+                <div class="sub-texts">
+                    <div class="sub-text-1">Why choose us</div>
+                    <div class="sub-text-2">Our Story</div>
+                    <div class="sub-text-3">Investor Relations</div>
+                    <div class="sub-text-4">Press Center</div>
+                    <div class="sub-text-5">Advertise</div>
+                </div>
+            </div>
+            <div class="social-media about-rentcars-web flex-column flex gap-10">
+                <div class="top-text"><b>Follow Us</b></div>
+                <div class="sub-texts follow-us-logos flex gap-10">
+                    <div class="sub-text-1"><img src="/images/fb.svg"></div>
+                    <div class="sub-text-2"><img src="/images/insta.svg"></div>
+                    <div class="sub-text-3"><img src="/images/yt.svg"></div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright-text">Copyright &copy; 2024 ・ Rentcars, All Rights Reserved ・ Study Nest</div>
+    </footer>
+</body>
+
+</html>

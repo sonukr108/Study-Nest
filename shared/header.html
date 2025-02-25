@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/utility.css">
+    <style>
+        @font-face {
+            font-family: myFont;
+            src: url("fonts/Oxlaide.otf") format("opentype");
+        }
+
+        .navbar {
+            color: white;
+            font-family: "Poppins", sans-serif;
+            position: sticky;
+            top: 0;
+            height: 65px;
+            background-color: rgba(255, 255, 255, 0.062);
+            backdrop-filter: blur(10px);
+            padding: 0 100px;
+        }
+
+        .logo {
+            cursor: pointer;
+            font-size: 40px;
+            font-family: 'myFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 55px;
+            background-color: #33A9DF;
+            padding: 0px 2px;
+            border-radius: 10px;
+        }
+
+        input {
+            position: relative;
+            border-radius: 8px;
+            padding: 0 5px 0 35px;
+            height: 40px;
+            width: 25vw;
+            font-size: 20px;
+            font-weight: 500;
+            color: #1A4261;
+            background-image: url("images/search.svg");
+            background-repeat: no-repeat;
+            background-position: 7px center;
+            border: none;
+        }
+
+        input:focus {
+            outline: none;
+            border: 2px solid #33A9DF;
+        }
+
+        button {
+            color: white;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        button:hover {
+            color: #33A9DF;
+        }
+
+        .login-signup {
+            gap: 10px;
+        }
+
+        .log-in {
+            background-color: #38bdf833;
+            color: #33A9DF;
+            padding: 8px 10px;
+            border-radius: 8px;
+        }
+
+        .log-in:hover {
+            background-color: #1A4261;
+            transition: all 0.3s ease-in-out;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        @media screen and (max-width: 900px) {
+            .navbar {
+                padding: 0 30px;
+            }
+
+            .logo {
+                font-size: 30px;
+            }
+
+            .logo img {
+                height: 45px;
+                padding: 0px 1.5px;
+            }
+
+            input {
+                padding: 0 5px 0 30px;
+                height: 32px;
+                width: 90px;
+                font-size: 15px;
+                background-size: 20px;
+            }
+
+            button {
+                font-size: 17px;
+            }
+
+            .log-in {
+                padding: 6px 7px;
+                border-radius: 8px;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar {
+                height: 55px;
+                padding: 0 20px;
+            }
+
+            .logo {
+                font-size: 25px;
+            }
+
+            .logo img {
+                height: 35px;
+                padding: 0px 1px;
+            }
+
+            input {
+                width: 55px;
+                height: 28px;
+            }
+
+            button {
+                font-size: 13px;
+            }
+
+            .log-in {
+                padding: 4px 5px;
+            }
+
+            .login-signup {
+                gap: 3px;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            .navbar {
+                padding: 0 10px;
+            }
+
+            .logo p {
+                line-height: 20px;
+            }
+
+            button {
+                font-size: 11px;
+            }
+
+            input {
+                width: 48px;
+                padding: 0 2px 0 20px;
+                background-position: 2px center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar flex item-center space-between">
+        <a href="/index.php">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Logo img">
+                <p>Study Nest</p>
+            </div>
+        </a>
+        <div class="searchbox">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="login-signup flex center">
+            <button class="sign-up">Sign up</button>
+            <button class="log-in">Log in</button>
+        </div>
+    </div>
+</body>
+
+</html>
